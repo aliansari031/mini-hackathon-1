@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <button id="logoutBtn" style="position:absolute; left:20px; top:25px;">Logout</button>
+    <h1 class="hh">eXclosive Social</h1>
+    <button id="dark-mode">Dark</button>
+</header>
+
+<div class="container">
+
+    <input type="text" id="searchAuthor" class="search-bar" placeholder="search by author">
+
+    <div class="posts-container">
+        <div id="posts"></div>
+    </div>
+
+    <div class="sidebar">
+        <h3>Create a new post</h3>
+
+        <form id="postform">
+            <input type="text" id="postinput" placeholder="write the caption">
+            <input type="file" id="imageinput" accept="image/*">
+            <button type="submit">Post</button>
+        </form>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
